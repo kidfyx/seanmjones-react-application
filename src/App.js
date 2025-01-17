@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import header from './components/header.js'; // This line is added to import the header component
+import content from './components/content'; // This line is added to import the content component
+import footer from './components/footer.js'; // This line is added to import the footer component
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          This is the updated text
-        </a>
-      </header>
+      <header />
+      <content />
+      <footer />
     </div>
   );
 }
