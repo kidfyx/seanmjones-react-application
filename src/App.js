@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header.js'; // This line is added to import the header component
 import Content from './components/content'; // This line is added to import the content component
