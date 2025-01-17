@@ -2,7 +2,7 @@
  
  const Footer = () => {
    return (
-     <div>
+     <div className='footer'>
        <h1>Hello, this is my component!</h1>
      </div>
    );
