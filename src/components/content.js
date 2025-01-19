@@ -2,7 +2,7 @@
  
  const Content = () => {
    return (
-     <div>
+     <div class="">
        <h1>Hello, this is my content!</h1>
      </div>
    );

@@ -1,10 +1,11 @@
  import React from 'react';
+ import {Navbar} from 'react-bootstrap';
  
  const Footer = () => {
    return (
-     <div className='footer'>
-       <h1>Hello, this is my component!</h1>
-     </div>
+    <div>
+    <Navbar fixed="bottom">here is the footer</Navbar>
+  </div>
    );
  };
  
