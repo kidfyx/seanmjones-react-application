@@ -1,0 +1,69 @@
+@import 'header.less';
+@import 'footer.less';
+@import 'content.less';
+
+// Variables
+@primary-color: #3498db;
+@secondary-color: #2ecc71;
+@font-family: 'Arial, sans-serif';
+
+// Global styles
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: @primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: darken(@primary-color, 10%);
+    }
+}
+
+// Header styles
+header {
+    background-color: @primary-color;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+// Footer styles
+footer {
+    background-color: @secondary-color;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+    p {
+        margin: 0;
+    }
+}
+
+.content {
+    padding: 20px;
+    background-image: url('/pubic/images/background.jpg');
+}
+
+// Utility classes
+.text-center {
+    text-align: center;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
